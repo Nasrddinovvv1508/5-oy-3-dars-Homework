@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box, #box2, #box3 {
+            width: 90%;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .btn {
+            background-color: red;
+            border: none;
+            color: white;
+            padding: 5px;
+        }
+
+        .right {
+            display: flex;
+            align-items: center;
+        }
+
+        #title {
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="box">
+        <div class="right">
+            <div id="image">
+            </div>
+            <div id="title"></div>
+        </div>
+        <div class="button">
+            <button class="btn">Delete</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
